@@ -15,3 +15,38 @@ This work, like WordPress, is released under GNU General Public License, version
 */
 
 @import url("../easywp/style.css");
+
+#easywp-header-content, .easywp-logo-image {
+    padding: 0px;
+}
+#easywp-header-left {
+    max-width: 100%;
+}
+
+.easywp-nav-primary {
+    background: #e2383f;
+}
+
+.easywp-primary-nav-menu .current_page_item > a {
+    background: #7f181b;
+}
+
+.easywp-primary-nav-menu > li > a {
+    border-right: 1px solid #7f181b;
+}
+
+.easywp-sidebar .widget-title {
+    background: #e2383f;
+}
+
+#easywp-copyrights {
+    background: #e2383f;
+}
+
+input[type="submit"] {
+    background: #e2383f;
+}
+
+button[type="submit"] {
+    background: #e2383f;
+}
